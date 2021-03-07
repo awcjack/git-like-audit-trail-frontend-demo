@@ -1,0 +1,18 @@
+.main {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainContent {
+    margin: 20px;
+    padding: 20px;
+    color: Purple;
+    align-self: center;
+}

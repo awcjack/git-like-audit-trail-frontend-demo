@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    top: 0;
+    max-height: 70px;
+    width: 100%;
+    display: grid;
+    background-color: #98d098;
+    z-index: 100;
+}
+
+.nav {
+    display: grid;
+    grid-area: nav;
+    grid-template-columns: auto auto auto auto;
+}
+.nav button {
+    background-color: #98d098;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+}
+.nav button:hover {
+    transform: scale(1.1);
+}
